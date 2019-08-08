@@ -1,0 +1,31 @@
+page-cidadao {
+
+    //Cor do plano de fundo da página
+    .scroll-content{
+        background-color: #E0EDE8;
+    }
+
+    //Cor do plano de fundo do cabeçalho
+    .toolbar-background {
+        background-color: #5D907F;
+    }
+
+    //Cor do título da página
+    .toolbar-title-md {
+        color: white;
+    }
+
+    //Cor do botão do Menu
+    .bar-button-default-md, .bar-button-clear-md-default, .bar-button-md-default {
+        color: #ffffff;
+    }
+
+    #EnviarMensagem {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+        display: block;
+    }
+
+}

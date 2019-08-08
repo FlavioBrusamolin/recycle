@@ -1,0 +1,67 @@
+page-lista {
+
+    //Cor do plano de fundo da página
+    .scroll-content{
+        background-color: #E0EDE8;
+    }
+    
+    //Cor do plano de fundo do cabeçalho
+    .toolbar-background {
+        background-color: #5D907F;
+    }
+
+    //Cor do título da página
+    .toolbar-title-md {
+        color: white;
+    }
+    
+    //Cor do botão do Menu
+    .bar-button-default-md, .bar-button-clear-md-default, .bar-button-md-default {
+        color: #ffffff;
+    }
+    
+    //Configurações do item
+    ion-item.item.item-block.item-md {
+        height: 90px;
+        background-color:transparent;
+        border-bottom: 1px solid rgb(204, 216, 211);
+        padding-left: 12px;
+        padding-top: 5px; 
+    }
+
+    //Posicionamento div esquerda
+    div#esquerda {
+        margin-top:8px;
+    }
+
+    //Posicionamento div direita
+    div#direita {
+        margin-top: 8px;
+    }
+
+    //Posicionamento do pin
+    .check {
+        position: absolute;
+        right:0px;
+        top:25px;
+    }
+
+    //Posicionamento da palavra peso
+    h3#peso {
+        position: absolute;
+        right:0px;
+    }
+
+    //Posicionamento do botão ADD
+    #BotaoADD {
+        margin-left: 290px;
+        position: fixed;
+        bottom: 80px;
+      }
+      
+    //Posição do ícone de status
+    #status{
+        margin-top: 10px;
+    }
+    
+}

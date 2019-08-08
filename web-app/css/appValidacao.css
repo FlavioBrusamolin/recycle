@@ -1,0 +1,24 @@
+div#painel_validacao {
+    padding:0;
+    position:absolute;
+	top:50%;
+    margin-top:-250px;
+    overflow:auto;
+}
+
+div#painel_validacao thead{
+    background-color: #8EB4A6;
+    color: #FFF;
+}
+
+div#painel_validacao thead th {
+    font-weight: bold;
+    height: 35px;
+    line-height: 35px;
+}
+
+div#painel_validacao th {
+    font-weight: normal;
+    text-align: center;
+    word-break: break-all;
+}

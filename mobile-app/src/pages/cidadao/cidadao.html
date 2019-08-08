@@ -1,0 +1,14 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>Fale conosco</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+  <ion-label style="color:#5D907F; margin-left:10px; font-size: 20px;" stacked>Mensagem:</ion-label>
+  <ion-item style="background-color: #E0EDE8; padding: 0px;">
+    <ion-textarea rows="20" placeholder="Digite nesse campo a sugestão ou reclamação que deseja enviar" [(ngModel)]="model.mensagem"></ion-textarea>
+  </ion-item>
+  <!-- <button ion-button style="background-color:#5D907F;" id="EnviarMensagem" (click)="cadastrarMaterialValido()">Enviar</button> -->
+  <button ion-button style="background-color:#5D907F;" id="EnviarMensagem" (click)="cadastrarNotificacao()">Enviar</button>
+</ion-content>

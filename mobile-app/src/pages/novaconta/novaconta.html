@@ -1,0 +1,35 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>Nova Conta</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+  <ion-list>
+    <ion-item>
+      <ion-label style="color:#5D907F;" stacked>Nome:</ion-label>
+      <ion-input type="text" [(ngModel)]="model.nome" placeholder="Insira seu nome"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label style="color:#5D907F;" stacked>E-mail:</ion-label>
+      <ion-input type="email" [(ngModel)]="model.email" placeholder="Insira seu e-mail"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label style="color:#5D907F;" stacked>CPF:</ion-label>
+      <ion-input type="number" [(ngModel)]="model.cpf" placeholder="Insira seu CPF"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label style="color:#5D907F;" stacked>Telefone:</ion-label>
+      <ion-input type="number" [(ngModel)]="model.telefone" placeholder="Insira seu telefone"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label style="color:#5D907F;" stacked>Senha:</ion-label>
+      <ion-input type="password" [(ngModel)]="model.senha" placeholder="Insira sua senha"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label style="color:#5D907F;" stacked>Confirmar Senha:</ion-label>
+      <ion-input type="password" [(ngModel)]="model.confirmasenha" placeholder="Insira sua senha novamente"></ion-input>
+    </ion-item>
+    <button ion-button style="background-color:#5D907F;" id="SalvarConta" (click)="cadastrarUsuario()">Salvar</button>
+  </ion-list>
+</ion-content>

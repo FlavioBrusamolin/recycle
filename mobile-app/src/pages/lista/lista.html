@@ -1,0 +1,49 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Materiais Cadastrados</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+  <ion-list>
+    <ion-item style="background-color:transparent;" *ngFor="let materialValidado of materiaisValidados">
+      <ion-row>
+        <ion-col>
+          <div id="esquerda">
+            <h3 style="color: #343F4B;" align="left">Material: {{ materialValidado.tipo }}.</h3>
+            <h3 id="status" style="color: #343F4B;" align="left">Status: {{ materialValidado.status }}</h3>
+          </div>
+        </ion-col>
+        <ion-col>
+          <div id="direita">
+            <!-- <ion-icon class="check" name="checkmark" style="color: green;" item-end></ion-icon> -->
+            <!-- <ion-icon id = "icone" class="check" name="remove" style="color: red;" item-end></ion-icon> -->
+            <h3 id="peso" style="color: #343F4B;">Quantidade: {{ materialValidado.quantidade }} {{ materialValidado.medida }}</h3>
+          </div>
+        </ion-col>
+      </ion-row>
+    </ion-item>
+    <!-- <ion-item style="background-color:transparent;"> 
+      <ion-row>
+        <ion-col>
+          <div id="esquerda">
+            <h3 style="color: #343F4B;" align="left">Material: Alumínio.</h3>
+            <h3 id="status" style="color: #343F4B;" align="left">Status: Aberto</h3>
+          </div>
+        </ion-col>
+        <ion-col>
+          <div id="direita">
+            <ion-icon class="check" name="remove" style="color: red;" item-end></ion-icon>
+            <h3 id="peso" style="color: #343F4B;">Peso: 12kg</h3>
+          </div>
+        </ion-col>
+      </ion-row>
+    </ion-item> -->
+  </ion-list>
+  <button id="BotaoADD" (click)="abrecadastrar()" ion-fab>
+    <ion-icon name="add"></ion-icon>
+  </button>
+</ion-content>

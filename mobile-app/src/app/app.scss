@@ -1,0 +1,88 @@
+//Tabs - Ícone reciclagem do Tabs
+ion-icon {
+    &[class*="custom-"] {
+      mask-size: contain;
+      mask-position: 50% 50%;
+      mask-repeat: no-repeat;
+      background: currentColor;
+      width: 1em;
+      height: 1em;
+    }
+  
+    &[class*="custom-reciclagem"] {
+      mask-image: url(../assets/icon/reciclagem.ico);
+    }
+}
+
+//Tabs - Plano de fundo do Tabs
+.tabs-md .tabbar {
+  background: #8EB4A6;
+}
+
+//Tabs - Cor do texto opção selecionada
+.tabs-md .tab-button[aria-selected=true] {
+  color: #000000;
+}
+
+//Tabs - Cor do ícone opção selecionada
+.tabs-md .tab-button[aria-selected=true] .tab-button-icon {
+  color: #000000;
+}
+
+//Tabs - Cor do texto opção não selecionada
+.tabs-md .tab-button-icon { 
+  color: white;
+}
+
+//Tabs - Cor do ícone opção não selecionada
+.tabs-md .tab-button {
+  color: white;
+}
+
+//MENU - Espessura do risco do menu e cor
+.menu-list {
+  .item-block .item-inner {
+    border-bottom: 2px solid white;
+  }
+  //MENU - Traz o risco do menu para o canto
+  .item-md{
+    padding-left: 0px;
+  }
+}
+
+
+//MENU - Último risco do menu (embaixo de configurações)
+button#A{
+  border-bottom: 2px solid white;
+}
+
+//MENU - Configurações do Avatar do menu
+.item-md ion-avatar ion-img, .item-md ion-avatar img {
+  border-radius: 50%;
+  overflow: hidden;
+  width: 100px;
+  height: 100px;
+  margin-left: 100px;
+}
+
+//MENU - Configurações do Avatar do menu
+img#avatar {
+  width: 120px;
+  height: 120px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+//MENU - Configurações da div do Avatar
+.menu-item {  
+  height: 190px;
+  background-color:#5D907F;
+  border-bottom: 2px solid white;
+}
+
+//Tamanho do spinner do loading
+ion-spinner {
+  width: 60px !important;
+  height: 60px !important;
+}

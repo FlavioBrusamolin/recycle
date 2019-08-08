@@ -1,0 +1,32 @@
+div#painel_visualizareventos {
+    padding:0;
+    position:absolute;
+	top:50%;
+    margin-top:-250px;
+    overflow:auto;
+}
+
+div#painel_visualizareventos thead{
+    background-color: #8EB4A6;
+    color: #FFF;
+}
+
+div#painel_visualizareventos thead th {
+    font-weight: bold;
+    height: 35px;
+    line-height: 35px;
+}
+
+div#painel_visualizareventos th {
+    font-weight: normal;
+    text-align: center;
+    word-break: break-all;
+    padding-left:250px;
+}
+
+.logo_evento img {
+    max-width:250px;
+    max-height:150px;
+    width: auto;
+    height: auto;
+}

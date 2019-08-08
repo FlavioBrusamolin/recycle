@@ -1,0 +1,50 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title class="titulo">
+      $Recycle
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="login">
+  <ion-list>
+    <ion-item class="item">
+      <ion-label style="color:#5D907F;" stacked>E-mail:</ion-label>
+      <ion-input type="email" [(ngModel)]="model.email" placeholder="Insira seu e-mail"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label style="color:#5D907F;" stacked>Senha:</ion-label>
+      <ion-input type="password" [(ngModel)]="model.senha" placeholder="Insira sua senha"></ion-input>
+    </ion-item>
+    <button full ion-button style="background-color:#5D907F;" id="botao_entrar" (click)="entrar()">ENTRAR</button>
+  </ion-list>
+  <a id="labels1" ion-item (click)="abrenova(item2)">
+    <ion-label>Criar nova conta</ion-label>
+  </a>
+  <a id="labels2" ion-item (click)="abrerecuperar(item3)">
+    <ion-label>Esqueceu sua senha?</ion-label>
+  </a>
+  <ion-row>
+    <ion-col col-5>
+      <div>
+        <hr/>
+      </div>
+    </ion-col>
+    <ion-col col-2>
+      <div id="corte">
+        <h2 id="ou">OU</h2>
+      </div>
+    </ion-col>
+    <ion-col col-5>
+      <div>
+        <hr/>
+      </div>
+    </ion-col>
+  </ion-row>
+  <button full ion-button id="botao_face">ENTRAR COM FACEBOOK
+    <ion-icon name="logo-facebook"></ion-icon>
+  </button>
+  <button full ion-button id="botao_google">ENTRAR COM GOOGLE
+    <ion-icon name="logo-google"></ion-icon>
+  </button>
+</ion-content>

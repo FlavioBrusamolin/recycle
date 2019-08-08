@@ -1,0 +1,35 @@
+<ion-menu [content]="content" id="myMenu">
+  <ion-content style="background-color:#5D907F;">
+    <ion-item class="menu-item">
+      <img src="assets/imgs/star.png" id="avatar">
+      <h2 style="color: white;" align="middle">Pontuação: {{pontuacao}} pts</h2>
+    </ion-item>
+    <ion-list class="menu-list">
+      <button style="background-color:#5D907F;" ion-item (click)="abreeditar(item1)" menuClose>
+        <h2 style="color: white;" align="middle">Editar Perfil</h2>
+      </button>
+      <button style="background-color:#5D907F;" ion-item (click)="abreranking(item3)" menuClose>
+        <h2 style="color: white;" align="middle">Ranking</h2>
+      </button>
+      <button style="background-color:#5D907F;" ion-item (click)="abreeventos(item4)" menuClose>
+        <h2 style="color: white;" align="middle">Eventos</h2>
+      </button>
+      <button style="background-color:#5D907F;" ion-item (click)="abreajuda(item5)" menuClose>
+        <h2 style="color: white;" align="middle">Ajuda</h2>
+      </button>
+      <button style="background-color:#5D907F;" ion-item (click)="abrecidadao(item7)" menuClose>
+        <h2 style="color: white;" align="middle">Fale conosco</h2>
+      </button>
+      <button id="A" style="background-color:#5D907F;" ion-item (click)="abreconfiguracoes(item6)" menuClose>
+        <h2 style="color: white;" align="middle">Configurações</h2>
+      </button>
+    </ion-list>
+  </ion-content>
+  <ion-footer style="background-color:white;">
+    <ion-buttons ion-item (click)="sai()" menuClose>
+      <h2 style="color:#5D907F; font-size: 21px;" align="middle">Sair</h2>
+    </ion-buttons>
+  </ion-footer>
+</ion-menu>
+
+<ion-nav id="nav" #content [root]="rootPage"></ion-nav>

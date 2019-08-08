@@ -1,0 +1,118 @@
+page-ranking {
+
+    //Cor do plano de fundo da página
+    .scroll-content{
+        background-color: #E0EDE8;
+    }
+
+    //Cor do plano de fundo do cabeçalho
+    .toolbar-background {
+        background-color: #5D907F;
+    }
+
+    //Cor do título da página
+    .toolbar-title-md {
+        color: white;
+    }
+
+    //Cor do botão do Menu
+    .bar-button-default-md, .bar-button-clear-md-default, .bar-button-md-default {
+        color: #ffffff;
+    }
+
+    //Configuração posição da Colocação no Ranking
+    .rankingNumber {
+        width: 30px;
+        height: auto;
+        display: inline-block;
+        float: left;
+        line-height: 70px;
+        font-weight: bold;
+    }
+
+    //Configuração icon do user
+    .rankingImg {
+        border-radius: 50%;
+        overflow: hidden;
+        width: 60px;
+        height: 60px;
+        float: left;
+        background-color: #C0CCDA;
+        float: left;
+    }
+
+    //Configuração posição do Nome
+    .rankingNome {
+        float: left;
+        font-weight: bold;
+        margin-left: 10px;
+        width: 160px;
+        margin-top: 25px;
+    }
+
+    //Configuração posição da Pontuação
+    .rankingPontuacao {
+        width: 50px;
+        height: 60px;
+        float: right;
+    }
+
+    //Configuração posição da Pontuação
+    .rankingPontuacaoValor {
+        font-weight: bold;
+        line-height: 65px;
+        display: inline-block; 
+    }
+
+    //Configuração tamanho da medalha
+    .rankingMedalha img {
+        width: 20px;
+        height: 20px;
+    }
+
+    //Configuração posição da medalha
+    .rankingMedalha {
+        margin-top: 25px;
+        margin-left: 7px;
+        position: absolute;
+        display: inline-block;    
+    }
+
+    //Deixa o background dos itens transparente
+    .item {
+        background-color: transparent;
+    }
+
+    .elemento:nth-child(1) .icone {
+        background-image: url(./../../assets/imgs/medalha_ouro.png); 
+        background-repeat: no-repeat;
+        background-size: 88%;
+    }
+
+    .elemento:nth-child(1) .rankingNumber:before {
+        content: "1"; 
+    }
+
+    .elemento:nth-child(2) .icone {
+        background-image: url(./../../assets/imgs/medalha_prata.png); 
+        background-repeat: no-repeat;
+        background-size: 88%; 
+    }
+
+    
+    .elemento:nth-child(2) .rankingNumber:before {
+        content: "2"; 
+    }
+
+    .elemento:nth-child(3) .icone {
+        background-image: url(./../../assets/imgs/medalha_bronze.png); 
+        background-repeat: no-repeat;
+        background-size: 88%; 
+    }
+
+    
+    .elemento:nth-child(3) .rankingNumber:before {
+        content: "3"; 
+    }
+
+}

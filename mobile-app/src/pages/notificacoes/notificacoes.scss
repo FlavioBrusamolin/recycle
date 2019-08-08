@@ -1,0 +1,71 @@
+page-notificacoes {
+
+    //Cor do plano de fundo da página
+    .scroll-content{
+        background-color: #E0EDE8;
+    }
+    
+    //Cor do plano de fundo do cabeçalho
+    .toolbar-background {
+        background-color: #5D907F;
+    }
+
+    //Cor do título da página
+    .toolbar-title-md {
+        color: white;
+    }
+    
+    //Cor do botão do Menu
+    .bar-button-default-md, .bar-button-clear-md-default, .bar-button-md-default {
+        color: #ffffff;
+    }
+
+    //Configuração caminhão
+    .notificacao_userImg {
+        border-radius: 50%;
+        overflow: hidden;
+        width: 60px;
+        height: 60px;
+        float: left;
+        background-color: #C0CCDA;
+    }
+
+    //Configuração div mensagem
+    .notificacaoMsg {
+        width: 75%;
+        float: right;
+        background-color: #C0CCDA;
+        color: #47525E;
+        padding: 7px;
+    }
+
+    //Configuração conteúdo da mensagem
+    .notificacaoMsg_text {
+        width: 100%;
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    //Configuração assinatura da mensagem
+    .notificacaoMsg_user {
+        font-weight: bold;
+        float: left;
+    }
+
+    //Configuração posição da hora
+    .notificacaoMsg_time {
+        float: right;
+    }
+
+    //Deixa o background dos itens transparente
+    .item {
+        background-color: transparent;
+    }
+
+}
+
+//Quebra de linha em todos os textos do aplicativo
+p {
+    word-break: break-all;
+    white-space: normal;
+}

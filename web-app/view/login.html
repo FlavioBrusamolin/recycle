@@ -1,0 +1,60 @@
+<div class="container-fluid" id="interface">
+	<div class="row">
+		<div class="col-xs-8 col-sm-8 col-md-8 col-lg-8 col-xs-offset-2 col-sm-offset-2 col-md-offset-2 col-lg-offset-2" id="borda">
+			<div class="row">
+				<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4" id="tela_login">
+					<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6" id="logo">
+						<img src="images/logo_gc_menor.png" class="img-responsive" alt="Responsive image" id="logo_iot" />
+					</div>
+					<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" id="login">
+						<form novalidate autocomplete="off">
+							<h2 id="sign"><strong>Faça login no sistema</strong></h2>
+							<div class="form-group">
+								<input type="email" id="form-login" class="form-control" name="email" ng-model="usuario.email" placeholder="Email">
+							</div>
+							<div class="form-group">
+								<input type="password" id="form-login" class="form-control" name="senha" ng-model="usuario.senha" placeholder="Senha">
+							</div>
+							<div class="checkbox col-xs-4 col-sm-4 col-md-4 col-lg-4" id="checkbox">
+								<label class="control-label">
+									<input type="checkbox" class="regular-checkbox" />
+									Lembrar-me
+								</label>
+							</div>
+							<div class="checkbox col-xs-8 col-sm-8 col-md-8 col-lg-8" id="forgot">
+								<label class="control-label">
+									Esqueceu sua senha?
+								</label>
+							</div>
+							<button type="button" class="btn btn-block" id="signin" ng-click="entrar(usuario)">ENTRAR</button>
+							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" id="separacao">
+								<div class="col-xs-5 col-sm-5 col-md-5 col-lg-5" id="linha">
+									<hr />
+								</div>
+								<div class="col-xs-2 col-sm-2 col-md-2 col-lg-2" id="corte">
+									<h4 id="or">ou</h4>
+								</div>
+								<hr />
+							</div>
+							<button type="button" class="btn btn-block" id="signup" ng-click="cadastro()">CADASTRAR</button>
+						</form>
+					</div>
+				</div>
+				<div class="col-xs-8 col-sm-8 col-md-8 col-lg-8" id="tela_abstrata">
+					<div class="col-xs-8 col-sm-8 col-md-8 col-lg-9 col-xs-offset-2 col-sm-offset-2 col-md-offset-2 col-lg-offset-2"
+					 id="texto_abstrata">
+						<div id="titulo">
+							<h1 id="mensagem">$Recycle { }</h1>
+						</div>
+						<div id="texto">
+							<p>Aqui você tem acesso ao painel de gestão da $Recycle { }.
+								Consulte estatísticas, monitore o sistema em tempo real, valide transações de<br>reciclagem, envie notificações
+								para os usuários, cadastre eventos e
+								confira o ranking dos melhores contribuintes.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

@@ -1,0 +1,46 @@
+page-eventos {
+
+    //Cor do plano de fundo da página
+    .scroll-content{
+        background-color: #E0EDE8;
+    }
+
+    //Cor do plano de fundo do cabeçalho
+    .toolbar-background {
+        background-color: #5D907F;
+    }
+
+    //Cor do título da página
+    .toolbar-title-md {
+        color: white;
+    }
+
+    //Cor do botão do Menu
+    .bar-button-default-md, .bar-button-clear-md-default, .bar-button-md-default {
+        color: #ffffff;
+    }
+
+    //Deixa o background dos itens transparente
+    .item {
+        background-color: transparent;
+    }
+
+    //Configura imgs da lista de eventos
+    #eventos{
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+
+    //Exibe sublinhado na label ao clicar
+    a:hover {
+        text-decoration: underline;
+    }
+
+    //Deixa transparente traço da div da label
+    .item-md.item-block .item-inner {
+        border-bottom: 0px solid transparent;
+    }
+
+}

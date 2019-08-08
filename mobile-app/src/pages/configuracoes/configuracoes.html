@@ -1,0 +1,35 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>Configurações</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+  <ion-list>
+      <ion-row>
+        <ion-col>
+          <div id="esquerd">
+            <ion-label align="left" id="LabelNotifica">
+              <ion-icon align="left" name="notifications"></ion-icon>
+              Notificações
+            </ion-label>
+            <ion-label align="left" style="color: black;">
+              Receber notificações a partir da
+              <br> distância(metros) de:
+            </ion-label>
+          </div>
+        </ion-col>
+        <ion-col>
+          <div id="direit">
+            <ion-toggle id="configurarNotificacao" color="std" checked="true"></ion-toggle>
+            <ion-select id="selecionarDistancia" [(ngModel)]="distancia" interface="popover">
+              <ion-option selected>50</ion-option>
+              <ion-option>100</ion-option>
+              <ion-option>200</ion-option>
+              <ion-option>500</ion-option>
+            </ion-select>
+          </div>
+        </ion-col>
+      </ion-row>
+  </ion-list>
+</ion-content>

@@ -1,0 +1,36 @@
+div#painel_ranking {
+    padding:0;
+    position:absolute;
+	top:50%;
+    margin-top:-250px;
+    overflow:auto;
+}
+
+div#painel_ranking thead{
+    background-color: #8EB4A6;
+    color: #FFF;
+}
+
+div#painel_ranking thead th {
+    font-weight: bold;
+    height: 35px;
+    line-height: 35px;
+}
+
+div#painel_ranking th {
+    font-weight: normal;
+    text-align: center;
+    word-break: break-all;
+}
+
+.elemento:nth-child(1) .posicao:before {
+    content: "1";
+}
+
+.elemento:nth-child(2) .posicao:before {
+    content: "2";
+}
+
+.elemento:nth-child(3) .posicao:before {
+    content: "3";
+}

@@ -1,0 +1,7 @@
+{
+  "name": "Aplicativo_Fetin",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}

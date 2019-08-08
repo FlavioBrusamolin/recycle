@@ -1,0 +1,51 @@
+page-editar {
+
+    //Cor do plano de fundo da página
+    .scroll-content{
+        background-color: #E0EDE8;
+    }
+
+    //Cor do plano de fundo do cabeçalho
+    .toolbar-background {
+        background-color: #5D907F;
+    }
+
+    //Cor do título da página
+    .toolbar-title-md {
+        color: white;
+    }
+
+    //Cor do botão do Menu
+    .bar-button-default-md, .bar-button-clear-md-default, .bar-button-md-default {
+        color: #ffffff;
+    }
+
+    //Configurações do avatar
+    .item-md ion-avatar ion-img, .item-md ion-avatar img {
+        border-radius: 50%;
+        overflow: hidden;
+        width: 100px;
+        height: 100px;
+        margin-left: 100px;
+    }
+
+    //Deixa o background dos itens transparente
+    .item {
+        background-color: transparent;
+    }
+
+    //Posicionamento do botão salvar edição
+    #SalvarEdicao{
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+
+    //Exibe sublinhado na label ao clicar
+    a:hover {
+        text-decoration: underline;
+    }
+    
+}
+

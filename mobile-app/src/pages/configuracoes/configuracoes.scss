@@ -1,0 +1,78 @@
+page-configuracoes {
+
+    //Cor do plano de fundo da página
+    .scroll-content{
+        background-color: #E0EDE8;
+    }
+
+    //Cor do plano de fundo do cabeçalho
+    .toolbar-background {
+        background-color: #5D907F;
+    }
+
+    //Cor do título da página
+    .toolbar-title-md {
+        color: white;
+    }
+
+    //Cor do botão do Menu
+    .bar-button-default-md, .bar-button-clear-md-default, .bar-button-md-default {
+        color: #ffffff;
+    }
+
+    //Deixa o background dos itens transparente
+    .item {
+        background-color: transparent;
+    }
+
+    //Configurações ícone de notificações
+    .ion-md-notifications:before {
+        color: #5D907F;
+        font-size: 28px;   
+    }
+
+    //Tamanho da label
+    #LabelNotifica{
+        font-size: 23px;
+    }
+
+    //Posicionamento div esquerda
+    div#esquerd {
+        margin-top:25px;
+        padding-left: 8px;
+    }
+
+    //Posicionamento div direita
+    div#direit {
+        margin-top: 25px;
+    }
+
+    //Posicionamento botão toogle
+    #configurarNotificacao {
+        right: 0px;
+        position: absolute;
+    }
+
+    //Configura o select na direita
+    #selecionarDistancia {
+        width: 150px;
+        height: 40px;
+        position: absolute;
+        top: 70px;
+        right: 10px;
+    }
+
+}
+
+//Posicionamento do select
+.popover-content {
+    position: fixed;
+    margin-top: 30px;
+    width: auto!important;
+}
+
+//Esconde o radio button
+.popover-content .radio-md {
+    opacity: 0;
+    width: 0;
+}

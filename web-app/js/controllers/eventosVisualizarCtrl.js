@@ -1,0 +1,1 @@
+angular.module('gcPanel').controller('eventosVisualizarCtrl', function ($scope) {});

@@ -1,0 +1,21 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Notificações</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+  <ion-list>
+    <ion-item style="background-color:transparent;" *ngFor="let notificacao of notificacoes">
+      <img class="notificacao_userImg" src="assets/imgs/caminhao.png">
+      <div class="notificacaoMsg">
+        <p class="notificacaoMsg_text">{{notificacao.mensagem}}</p>
+        <p class="notificacaoMsg_user">Prefeitura</p>
+        <p class="notificacaoMsg_time">{{notificacao.data}} {{notificacao.hora}}</p>
+      </div>
+    </ion-item>
+  </ion-list>
+</ion-content>

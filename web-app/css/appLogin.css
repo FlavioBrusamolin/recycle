@@ -1,0 +1,204 @@
+div#interface {
+	background: linear-gradient(to right bottom, #ecf0f5 50%, #1b685f 50%);
+	width:100%;
+	height:100vh;
+	background-repeat:no-repeat;
+	background-position:center center;
+	background-size:cover;
+}
+
+div#borda {  
+	height:550px;
+	background-color:transparent;
+	/* margin-top:100px; */
+	margin-top:-275px;
+	top:50%;
+	position:absolute;
+	border:1px solid #0f5149;
+	-webkit-box-shadow:2px 5px 51px 22px rgba(0,0,0,0.27);
+	-moz-box-shadow:2px 5px 51px 22px rgba(0,0,0,0.27);
+	box-shadow:2px 5px 51px 22px rgba(0,0,0,0.27);
+}
+
+div#tela_login {
+	height:550px;
+	background-color:#f9fafc;
+}
+
+div#logo {
+	height:100px;
+	margin-top:13px;
+}
+
+img#logo_iot {
+	position:absolute;
+	left:10px;
+	top:10px;
+}
+
+div#login {
+	height:450px;
+	padding:10px 25px 10px 25px;
+}
+
+h2#sign {
+	font-family:helvetica;
+	font-size:20px;
+	color:#6d7a88;
+	margin-bottom:27px;
+}
+
+.form-control {
+	background-color:transparent;
+	border:1px solid #6d7a88;
+	font-size:12px;
+	font-family:helvetica;
+}
+
+input[type = "email"]::-webkit-input-placeholder { 
+	color:#6d7a88;
+}
+
+input[type = "email"]::-moz-placeholder { 
+	color:#6d7a88;
+}
+
+input[type = "email"]:-ms-input-placeholder { 
+	color:#6d7a88;
+}
+
+input[type = "email"]:-moz-placeholder { 
+	color:#6d7a88;
+}
+
+input[type = "password"]::-webkit-input-placeholder { 
+	color:#6d7a88;
+}
+
+input[type = "password"]::-moz-placeholder { 
+	color:#6d7a88;
+}
+
+input[type = "password"]:-ms-input-placeholder { 
+	color:#6d7a88;
+}
+
+input[type = "password"]:-moz-placeholder { 
+	color:#6d7a88;
+}
+
+div#checkbox {
+	height:15px;
+	background-color:transparent;
+	margin-bottom:20px;
+	margin-top:0;
+	padding:0;
+	text-align:left;
+}
+
+.control-label {
+	font-family:helvetica;
+	font-size:11.2px;
+	color:#657383;
+}
+
+.regular-checkbox {
+	position:absolute;
+	bottom:0px;
+}
+
+div#forgot {
+	height:15px;
+	background-color:transparent;
+	margin-bottom:20px;
+	margin-top:0;
+	padding:0;
+	text-align:right;
+}
+
+button#signin {
+	background-color:#72b19c;
+	color:#fff;
+	font-size:12px;
+	margin-bottom:15px;
+}
+
+div#separacao {
+	height:35px;
+	background-color:transparent;
+	padding:0;
+	margin-bottom:15px;
+}
+
+div#linha {
+	height:25px;
+	background-color:transparent;
+	padding:0;
+}
+
+hr {
+	border-top:1px solid #b6bbc3;
+}
+
+div#corte {  
+	text-align:center;
+	height:25px;
+	margin-top:2px;
+	background-color:#f9fafc;
+	padding:0;
+}
+
+h4#or {
+	font-family:helvetica;
+	font-size:13px;
+	color:#9aa1ac;
+}
+
+button#signup {
+	background-color:#cfd2d7;
+	color:#6d7a88;
+	font-size:12px;
+	font-weight:700;
+}
+
+div#tela_abstrata {
+	height:550px;
+	background-image:linear-gradient(rgba(0,0,0,0.35), rgba(0,0,0,0.35)), url(../images/notebook_oculos.jpg);
+}
+
+div#texto_abstrata {
+	background-color:transparent;
+	height:200px;
+	margin-top:275px;
+	padding:0px;
+}
+
+div#titulo {
+	background-color:transparent;
+	height:120px;
+	padding-top:52px;
+	padding-left:2px; 
+}
+
+h1#mensagem {
+	font-family:helvetica;
+	font-size:32px;
+	color:#edf1f4;
+}
+
+div#texto {
+	background-color:transparent;
+	height:80px;
+	border-left:2px solid #1b685f;
+	margin-left:10px;
+	padding-left:20px;
+}
+
+p {
+	font-family:helvetica;
+	color:#e1e4e6;
+}
+
+input#form-login {
+	font-size:12px;
+}

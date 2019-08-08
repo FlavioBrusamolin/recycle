@@ -1,0 +1,97 @@
+<nav class="navbar navbar-default" id="navbar">
+    <div class="col-lg-10 col-lg-offset-1" ng-controller="headerCtrl">
+        <ul id="navbar-left">
+            <li ng-class="{active:isActive('/validacao')}">
+                <a href="#!/validacao">Validação</a>
+            </li>
+            <li ng-class="{active:isActive('/mapa')}">
+                <a href="#!/mapa">Localização</a>
+            </li>
+            <li class="dropdown" ng-class="{active:isActive('/notificacao/cadastro') || isActive('/notificacao/visualizar') || isActive('/notificacao/cidadao')}">
+                <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Notificações
+                    <span class="caret"></span>
+                </a>
+                <ul class="dropdown-menu">
+                    <li>
+                        <a href="#!/notificacao/cadastro">Cadastrar</a>
+                    </li>
+                    <li role="separator" class="divider"></li>
+                    <li>
+                        <a href="#!/notificacao/visualizar">Visualizar</a>
+                    </li>
+                    <li role="separator" class="divider"></li>
+                    <li>
+                        <a href="#!/notificacao/cidadao">Cidadão</a>
+                    </li>
+                </ul>
+            </li>
+            <li class="dropdown" ng-class="{active:isActive('/materiais/cadastro') || isActive('/materiais/visualizar')}">
+                <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Materiais
+                    <span class="caret"></span>
+                </a>
+                <ul class="dropdown-menu">
+                    <li>
+                        <a href="#!/materiais/cadastro">Cadastrar</a>
+                    </li>
+                    <li role="separator" class="divider"></li>
+                    <li>
+                        <a href="#!/materiais/visualizar">Visualizar</a>
+                    </li>
+                </ul>
+            </li>
+            <li class="dropdown" ng-class="{active:isActive('/eventos/cadastro') || isActive('/eventos/visualizar')}">
+                <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Eventos
+                    <span class="caret"></span>
+                </a>
+                <ul class="dropdown-menu">
+                    <li>
+                        <a href="#!/eventos/cadastro">Cadastrar</a>
+                    </li>
+                    <li role="separator" class="divider"></li>
+                    <li>
+                        <a href="#!/eventos/visualizar">Visualizar</a>
+                    </li>
+                </ul>
+            </li>
+            <li ng-class="{active:isActive('/ranking')}">
+                <a href="#!/ranking">Ranking</a>
+            </li>
+        </ul>
+
+        <ul id="navbar-right">
+            <li>
+                <a href="#" id="logo">
+                    <img src="images/globo.png" id="logo_gc">
+                    <p>$Recycle{}</p>
+                </a>
+            </li>
+            <li>
+                <a href="#!/login">Sair</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<div class="col-lg-10 col-lg-offset-1 panel panel-success" id="painel_cadastroEventos">
+    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 panel-heading">
+        <h3 class="panel-title">Cadastre um novo evento</h3>
+    </div>
+    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 panel-body" id="tela_cadastroEventos">
+        <div class="col-lg-8 col-lg-offset-2 centralizar">
+            <form novalidate autocomplete="off">
+                <div class="form-group">
+                    <input type="text" class="form-control" name="tipo" ng-model="material.tipo" placeholder="Insira a url do evento">
+                </div>
+
+                <div class="input-group mb-3">
+                    <div class="custom-file">
+                        <input type="file" class="custom-file-input" id="inputGroupFile02">
+                    </div>
+                </div>
+
+                <button type="submit" class="btn btn-primary col-sm-12" id="cadastroEventos" ng-click="cadastrar(material)">Cadastrar
+                    e Enviar</button>
+            </form>
+        </div>
+    </div>
+</div>

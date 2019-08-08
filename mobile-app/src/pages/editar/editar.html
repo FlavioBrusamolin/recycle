@@ -1,0 +1,31 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>Editar Perfil</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content class="editar">
+  <div>
+    <ion-item>
+      <img src="assets/imgs/star.png" id="avatar">
+    </ion-item>
+  </div>
+  <ion-list>
+    <ion-item>
+      <ion-label style="color:#5D907F;" stacked>Nome:</ion-label>
+      <ion-input type="text" placeholder="Insira seu nome" value="Bruno Marinheiro"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label style="color:#5D907F;" stacked>CPF:</ion-label>
+      <ion-input type="number" placeholder="Insira seu CPF" value="123.456.789-10"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label style="color:#5D907F;" stacked>Telefone:</ion-label>
+      <ion-input type="number" placeholder="Insira seu telefone" value="(35)9999-7373"></ion-input>
+    </ion-item>
+    <a ion-item (click)="abresenha()">
+      <ion-label style="color:#5D907F; text-align: center">Clique aqui para alterar a senha!</ion-label>
+    </a>
+    <button ion-button style="background-color:#5D907F;" id="SalvarEdicao">Salvar</button>
+  </ion-list>
+</ion-content>

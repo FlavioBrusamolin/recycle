@@ -1,0 +1,43 @@
+div#painel_cadastroEventos {
+    padding:0;
+    position:absolute;
+    top:50%;
+    margin-top:-250px;
+    overflow:auto;
+
+}
+
+div#painel_cadastroEventos .panel-heading{
+    background-color: #8EB4A6;
+    color: #FFF;
+    text-align: center;
+    
+}
+
+div#painel_cadastroEventos .panel-heading h3{
+    font-weight: bold;
+    height: 35px;
+    line-height: 35px;
+ }
+
+div#tela_cadastroEventos {
+    padding-top: 15px;
+    padding-bottom: 35px;
+}
+
+div#tela_cadastroEventos .centralizar{
+    margin-top: 20px;
+}
+
+div#painel_cadastroEventos #signup_cadastro {
+    font-size: 16px;
+}
+
+.form-control {
+    font-size: 16px;
+    height: auto;
+}
+
+#cadastroEventos{
+    margin-top: 20px;
+}
